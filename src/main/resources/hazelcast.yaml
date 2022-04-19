@@ -1,0 +1,14 @@
+hazelcast:
+  cluster-name: demo-cluster
+  network:
+    join:
+      auto-detection:
+        enabled: false
+      multicast:
+        enabled: false
+      tcp-ip:
+        enabled: true
+        member-list:
+          - 127.0.0.1
+  integrity-checker:
+    enabled: false
